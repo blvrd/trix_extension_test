@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "TrixTest",
+  "version": "1.0",
+  "description": "Testing the Trix integration",
+  "icons": {},
+  "content_scripts": [
+    {
+      "matches": ["*://*.basecamp.com/*"],
+      "js": ["trix_test.js"]
+    }
+  ]
+}
